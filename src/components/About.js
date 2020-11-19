@@ -63,8 +63,8 @@ const About = () => {
           </p>
           <p>
             Well-organised person, problem solver, Everyday Learner with high
-            attention to detail; Other interests includes: fitness fanatic,
-            Treking, PC gaming, occasional reading
+            attention to detail; Other interests includes: Traveling, Working out
+            Treking, PC gaming, Reading
           </p>
           <p>
             Interested in the working on ambitious projects with like minded
