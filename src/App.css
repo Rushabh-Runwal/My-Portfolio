@@ -92,7 +92,8 @@ body {
 /* Header */
 
 .header-Jumbotron {
-  background-image: url("./images/Head-Cover.gif");
+/*   background-image: url("./images/Head-Cover.gif"); */
+  background-image: url("./images/Head-Cover.jpg");  
   background-size: cover;
   height: 100vh;
   margin: 0;
