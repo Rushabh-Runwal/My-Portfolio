@@ -33,7 +33,7 @@ const MyWork = () => {
                 source={img1}
               />                        
               <ProjectImg
-                href="https://github.com/Rushabh-Runwal/optimist-India"
+                href="https://github.com/Rushabh-Runwal/Will-it-Rain"
                 title="Will-it-Rain"
                 source={img2}
               />
@@ -81,7 +81,7 @@ const MyWork = () => {
           <Tab eventKey="Python" title="Python" >  
           <Row>                    
               <ProjectImg
-                href="https://github.com/Rushabh-Runwal/optimist-India"
+                href="https://github.com/Rushabh-Runwal/Will-it-Rain"
                 title="Will-it-Rain"
                 source={img2}
               />
