@@ -28,7 +28,7 @@ const MyWork = () => {
           <Tab eventKey="All" title="All">
             <Row>
             <ProjectImg
-                href="www.rushabhpavers.in"
+                href="https://www.rushabhpavers.in/"
                 title="rushabhpavers.in"
                 source={img1}
               />                        
@@ -131,7 +131,7 @@ const MyWork = () => {
           <Tab eventKey="Websites" title="Websites" >  
           <Row>
             <ProjectImg
-                href="www.rushabhpavers.in"
+                href="https://www.rushabhpavers.in/"
                 title="rushabhpavers.in"
                 source={img1}
               />    
