@@ -17,7 +17,7 @@ const Head = () => {
               ,
             </span>
             <br />
-            <span>Software Engineer.</span>
+//             <span>Software Engineer.</span>
             <br />
           </h1>
           <Button
