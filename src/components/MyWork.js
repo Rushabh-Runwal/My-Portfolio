@@ -38,7 +38,7 @@ const MyWork = () => {
                 source={img2}
               />
               <ProjectImg
-                href="www.rushabhpavers.in"
+                href="https://github.com/Rushabh-Runwal/DonationManagementSystem"
                 title="Donation Management System"
                 source={img3}
               />                               
@@ -116,7 +116,7 @@ const MyWork = () => {
           <Tab eventKey="Java" title="Java" >  
           <Row>
             <ProjectImg
-                href="www.rushabhpavers.in"
+                href="https://github.com/Rushabh-Runwal/DonationManagementSystem"
                 title="Donation Management System"
                 source={img3}
               />                               
