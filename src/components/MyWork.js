@@ -9,6 +9,8 @@ import img4 from "../images/simons-game.png";
 import img5 from "../images/Employee-database.png";
 import img6 from "../images/To-Do-List.png";
 import img7 from "../images/optimist- India.png";
+import img8 from "../images/Tic-Tac-Toe.png";
+import img9 from "../images/BlogWebsite.png";
 
 import ProjectImg from "./ProjectImg";
 
@@ -62,13 +64,13 @@ const MyWork = () => {
               />              
               <ProjectImg
                 title="Tic Tac Toe"
-                source="https://user-images.githubusercontent.com/65080982/86284153-f33ae800-bbff-11ea-9ca1-820373191324.png"
+                source={img8}
                 href="https://github.com/Rushabh-Runwal/Tic-Tac-Toe"
               />
               <ProjectImg
                 href="https://github.com/Rushabh-Runwal/MyBlogWebsite"
                 title="Blog Website"
-                source="https://user-images.githubusercontent.com/65080982/86285778-d81da780-bc02-11ea-81e9-e3ba95050c7a.png"
+                source={img9}
               />
             </Row>
           </Tab>
@@ -100,13 +102,13 @@ const MyWork = () => {
                 />                 
                 <ProjectImg
                   title="Tic Tac Toe"
-                  source="https://user-images.githubusercontent.com/65080982/86284153-f33ae800-bbff-11ea-9ca1-820373191324.png"
+                  source={img8}
                   href="https://github.com/Rushabh-Runwal/Tic-Tac-Toe"
                 />
                 <ProjectImg
                   href="https://github.com/Rushabh-Runwal/MyBlogWebsite"
                   title="Blog Website"
-                  source="https://user-images.githubusercontent.com/65080982/86285778-d81da780-bc02-11ea-81e9-e3ba95050c7a.png"
+                  source={img9}
                 />
           </Row>            
           </Tab>
