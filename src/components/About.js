@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa"
 
 import {
-  DiMysql,DiJavascript,DiMongodb,DiTerminal
+  DiMysql,DiJavascript,DiMongodb,
 } from "react-icons/di"
 
 import {SiFlask,SiCplusplus} from "react-icons/si"
