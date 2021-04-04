@@ -11,11 +11,12 @@ import img6 from "../images/To-Do-List.png";
 import img7 from "../images/optimist- India.png";
 import img8 from "../images/Tic-Tac-Toe.png";
 import img9 from "../images/BlogWebsite.png";
+import img10 from "../images/Cryptocurrency_predictor.png"
 
 import ProjectImg from "./ProjectImg";
 
 const MyWork = () => {
-  const [key, setKey] = useState('All');
+  const [key, setKey] = useState('Recent Projects');
 
   return (
     <Container style={{ backgroundColor: "#fff" }} fluid id="Portfolio">
@@ -25,8 +26,13 @@ const MyWork = () => {
           activeKey={key}
           onSelect={(k) => setKey(k)}
         >
-          <Tab eventKey="All" title="All">
+          <Tab eventKey="Recent Projects" title="Recent Projects">
             <Row>
+            <ProjectImg
+                title="Cryptocurrency Predictor"
+                source={img10}
+                href="https://github.com/Rushabh-Runwal/CryptocurrencyPredictor/"
+              />   
             <ProjectImg
                 href="https://www.rushabhpavers.in/"
                 title="rushabhpavers.in"
@@ -51,12 +57,7 @@ const MyWork = () => {
                 title="Todo-list"
                 source={img6}
                 href="https://github.com/Rushabh-Runwal/todo-list"
-              />
-              <ProjectImg
-                title="Simons Game"
-                source={img4}
-                href="https://github.com/Rushabh-Runwal/Simon-Game"
-              />       
+              />    
               <ProjectImg
                 href="https://github.com/Rushabh-Runwal/optimist-India"
                 title="Optimist India"
@@ -76,6 +77,11 @@ const MyWork = () => {
           </Tab>
 
           <Tab eventKey="ML" title="ML" >
+          <ProjectImg
+                title="Cryptocurrency Predictor"
+                source={img10}
+                href="https://github.com/Rushabh-Runwal/CryptocurrencyPredictor/"
+              />   
           </Tab>
 
           <Tab eventKey="Python" title="Python" >  
