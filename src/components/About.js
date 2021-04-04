@@ -4,8 +4,21 @@ import SectionHeading from "./SectionHeading";
 import { IoIosRocket, IoMdBulb } from "react-icons/io";
 import { GiRunningNinja } from "react-icons/gi";
 import { FaAward } from "react-icons/fa";
-import ProgressBar from "react-bootstrap/ProgressBar";
-import imgMe from "../images/me.png";
+// import ProgressBar from "react-bootstrap/ProgressBar";
+
+import {
+  FaPython,FaJava,FaReact,FaLinux,FaGithub,FaNode
+} from "react-icons/fa"
+
+import {
+  DiMysql,DiJavascript,DiMongodb,DiTerminal
+} from "react-icons/di"
+
+import {SiFlask,SiCplusplus} from "react-icons/si"
+
+
+
+import imgMe from "../images/me.png"
 const About = () => {
   return (
     <Container fluid id="About">
@@ -22,7 +35,7 @@ const About = () => {
           xs={6}
           className="about-icons"
         >
-          <FaAward className="about-fa-icons hexagon" />
+          <FaAward className="about-fa-icons  hexagon" />
           <h3>Aiming For Quality</h3>
         </Col>
         <Col
@@ -72,7 +85,35 @@ const About = () => {
           </p>
         </Col>
 
-        <Col md={6} xs={12}>
+        <Col md={6} xs={12} data-aos="slide-right" data-aos-offset="0"  className="about-col-one col-algin-middle" >
+          <h3>Skills</h3>
+          <span className="skills-line line-middle" >
+            <FaPython  data-aos="flip-right" className="about-fa-icons skills-icon hexagon"/>
+            <DiJavascript className="about-fa-icons skills-icon hexagon"/>
+            <FaJava className="about-fa-icons skills-icon hexagon"/>
+            <SiCplusplus className="about-fa-icons skills-icon hexagon"/>
+          </span>
+          <span className="skills-line line-middle" >
+            <FaReact className="about-fa-icons skills-icon hexagon"/>
+            <SiFlask className="about-fa-icons skills-icon hexagon"/>
+            <FaNode className="about-fa-icons skills-icon hexagon"/>
+          </span>
+          <span className="skills-line line-middle" >
+            <DiMysql className="about-fa-icons skills-icon hexagon"/>
+            <DiMongodb className="about-fa-icons skills-icon hexagon"/>
+            <FaGithub className="about-fa-icons skills-icon hexagon"/>
+            <FaLinux className="about-fa-icons skills-icon hexagon"/>
+          </span>
+        </Col>  
+       </Row>
+    </Container>
+  );
+};
+export default About;
+
+
+/*
+       <Col md={6} xs={12}>
           <ul data-aos="slide-right" data-aos-offset="0" className="skill-sets">
             <li>
               <span>
@@ -84,7 +125,7 @@ const About = () => {
                   label={`${70}%`}
                 />
               </span>
-            </li>
+            
             <li>
               <span>JavaScript </span>
               <ProgressBar
@@ -93,7 +134,7 @@ const About = () => {
                 now={55}
                 label={`${55}%`}
               />
-            </li>
+            
             <li>
               <span>React Js</span>
               <ProgressBar
@@ -102,7 +143,7 @@ const About = () => {
                 now={60}
                 label={`${60}%`}
               />
-            </li>
+            
             <li>
               <span>HTML </span>
               <ProgressBar
@@ -111,7 +152,7 @@ const About = () => {
                 now={60}
                 label={`${60}%`}
               />
-            </li>
+            
             <li>
               <span>CSS</span>
               <ProgressBar
@@ -120,7 +161,7 @@ const About = () => {
                 now={60}
                 label={`${60}%`}
               />
-            </li>
+            
             <li>
               <span>Node Js</span>
               <ProgressBar
@@ -129,7 +170,7 @@ const About = () => {
                 now={40}
                 label={`${40}%`}
               />
-            </li>
+            
             <li>
               <span>C++</span>
               <ProgressBar
@@ -138,7 +179,7 @@ const About = () => {
                 now={45}
                 label={`${45}%`}
               />
-            </li>
+            
             <li>
               <span>C programing</span>
               <ProgressBar
@@ -147,7 +188,7 @@ const About = () => {
                 now={40}
                 label={`${40}%`}
               />
-            </li>
+            
             <li>
               <span>
                 Python{" "}
@@ -158,11 +199,7 @@ const About = () => {
                   label={`${50}%`}
                 />
               </span>
-            </li>
+            
           </ul>
         </Col>
-      </Row>
-    </Container>
-  );
-};
-export default About;
+*/
