@@ -1,7 +1,11 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import ReactJsTyping from "reactjs-typing-effect";
 import { Button, Row, Col } from "reactstrap";
+
+
 const Head = () => {
+  const heading_list=['Programmer','Software Engineer']
   return (
     <Jumbotron id="Head" className="header-Jumbotron">
       <Row>
@@ -17,7 +21,11 @@ const Head = () => {
               ,
             </span>
             <br />
-            {/* <span>Software Engineer.</span>{ */}  
+            <span>
+              <ReactJsTyping StringList={heading_list} speed={700}/>
+            </span>
+ 
+            {/* <span>Software Engineer.</span> */}
             <br />
           </h1>
           <Button
@@ -32,7 +40,13 @@ const Head = () => {
         </Col>
         <Col md={6}></Col>
       </Row>
+      <div>
+        <a  href="#About">
+          <span className="scrolldown"> </span>
+        </a> 
+      </div>
     </Jumbotron>
+
   );
 };
 export default Head;
